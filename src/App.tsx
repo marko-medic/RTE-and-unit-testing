@@ -1,16 +1,13 @@
-import './App.css';
-
-import React from 'react';
-
-// import Player from './components/Player';
-import Timer from './components/Timer';
+import "./App.css";
+import { CustomForm } from "./components/CustomForm";
+import { Place } from "./components/Place";
 
 function App() {
   return (
     <div className="App">
-      <Timer />
-
-      {/* <Player /> */}
+      <p>Hello</p>
+      <CustomForm />
+      <Place />
     </div>
   );
 }
